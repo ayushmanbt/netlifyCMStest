@@ -7,3 +7,7 @@ module.exports = {
     return cfg;
   }
 };
+
+module.exports = withMDX({
+  extension: /\.md$/
+});

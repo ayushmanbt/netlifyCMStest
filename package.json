@@ -9,11 +9,13 @@
     "export": "npm run build && next export"
   },
   "dependencies": {
+    "@next/mdx": "^9.0.6",
     "next": "9.0.6",
     "react": "16.9.0",
     "react-dom": "16.9.0"
   },
   "devDependencies": {
+    "@mdx-js/loader": "^1.5.0",
     "frontmatter-markdown-loader": "^2.1.0"
   }
 }
