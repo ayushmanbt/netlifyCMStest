@@ -1,3 +1,5 @@
+const withMDX = require("@next/mdx");
+
 module.exports = {
   webpack: cfg => {
     cfg.module.rules.push({
